@@ -2,11 +2,17 @@
   "name": "ts-package-template",
   "description": "TypeScript package template",
   "version": "0.0.0",
+  "files": [
+    "src"
+  ],
   "main": "./dist/index.js",
   "exports": "./dist/index.js",
   "repository": "https://github.com/jotaajunior/ts-package-template.git",
   "author": "Jota <jjunior@protonmail.ch>",
   "scripts": {
+    "test": "jest"
+  },
+  "np": {
     "message": "chore: releases v%s"
   },
   "license": "MIT",
