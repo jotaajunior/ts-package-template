@@ -1,7 +1,11 @@
 {
   "name": "ts-package-template",
   "description": "TypeScript package template",
+  "type": "module",
   "version": "0.0.0",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
   "files": [
     "src"
   ],
